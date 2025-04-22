@@ -1,0 +1,1394 @@
+@font-face {
+    font-family: Derania;
+    src: url(DeraniaDemoPersonalLicense-JRlWB.otf);
+
+    font-family: Psychedlic;
+    src: url(RetroSailingDemo-0WneP.ttf)
+}
+
+* body {
+
+}
+
+* h1 {
+    color: yellow;
+    font-family: 'Courier New', Courier, monospace;   
+   }
+
+.main-font {
+    font-family: 'Pirata One', 'cursive';
+    animation: color-change 5s infinite;
+    text-shadow: 2px 2px 4px palevioletred;
+    font-size: 4.5em;
+    left: 70%;
+    transform: scale(0.8);
+    text-align: center;
+
+}
+
+
+.hippity_hop {
+ color: yellow;
+ font-family: 'Courier New', Courier, monospace;   
+}
+
+
+.sidebar-custom-link {
+    color: light gray;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+.sidebar-custom-link:hover {
+    background: linear-gradient(to right, #FFC300, #FF5733, #C70039, #900C3F, #581845, #14213D, #2B7A78);
+    text-shadow: 2px 2px 2px yellow;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.sidebar-custom-link-2 {
+     color: yellow;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+.sidebar-custom-link-2:hover {
+    background: linear-gradient(to right, #FFC300, #FF5733, #C70039, #900C3F, #581845, #14213D, #2B7A78);
+    text-shadow: 2px 2px 2px yellow;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-content {
+    background-image: url("twinkling%20star%20background.gif");
+  
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    border-width: 10px;
+    border-style: groove double;
+    border-color: grey;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    
+
+
+}
+
+.container {
+  position: fixed;
+    border: 3px red;
+}
+
+.sidebar {
+    border-width: 6px;
+    border-style: groove double;
+    border-color: grey;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+   position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 150px;
+    overflow-y: scroll;
+    color: yellow;
+    font-size: 15px;
+    font-weight: 200;
+    background-color: black;
+
+
+    background-position: 50% 50%;
+    background-size: 200% 60%;
+}
+
+
+.gif-container {
+    position: relative width: 3000px height: 3000px border: red solid;
+    transform: scale(0.8);
+}
+
+.gifwelcome-1 {
+    position: absolute;
+    left: 200px;
+    top: -270px;
+    z-index: 10;
+    transform: scale(0.8);
+
+}
+
+.future-2 {
+    position: absolute;
+    left: 200px;
+    top: -230px;
+}
+
+.gifdoor-2 {
+    position: absolute;
+    top: -5%;
+    left: 5%;
+    transform: translate(-50% -50%);
+    z-index: 2;
+    transform: scale(0.8);
+    size: 200%;
+
+}
+
+
+
+.gifpolicegun-3 {
+    postion: absolute;
+    top: -3300px;
+    left: 450%;
+    z-index: 3;
+    transform: scale(0.8);
+
+}
+
+
+
+
+.gifsparklingbunny-4 {
+    position: absolute;
+    top: -20px;
+    right: -120px;
+    z-index: 1;
+x
+}
+
+.gifknights-3 {
+    position: absolute;
+    top: 60px; 
+    left: 640px;
+    z-index: 12;
+
+}
+
+.gifpornka-5 {
+    position: absolute;
+    top: 50%;
+    left: -350px;
+    transform: translate(-50% -50%);
+    z-index: 5;
+    transform: scale(-50%);
+
+}
+
+
+
+
+.gifplanet-4 {
+    position: absolute;
+    bottom: 80px;
+    right: 20px;
+    z-index: 4;
+    transform: scale(0.8);
+}
+
+.gifskull-11 {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    z-index: 11;
+    overflow-y: scroll;
+    transform: scale(0.8);
+}
+
+
+
+.gifluckbanner-5 {
+    position: absolute;
+    top: -310px;
+    right: -20%;
+    transform: translate(-50% -50%);
+    z-index: 5;
+    transform: scale(0.8);
+}
+
+.giffreemoney-6 {
+    position: absolute;
+    top: 10%;
+    left: 135;
+    transform: translate(-50%-50%);
+    transform: scale(0.8);
+}
+
+.gifwelcome-7 {
+    postion: absolute;
+    top: 60px;
+    left: calc(20%-375px);
+    z-index: 7;
+    transform: scale(0.8);
+}
+
+
+
+
+.gifmakemoney-8 {
+    positon: absolute;
+    top: 150px;
+    right: -5%;
+    transform: translate(50%-50%);
+    z-index: 8;
+    transform: scale(0.8);
+}
+
+.gifcross-9 {
+    position: absolute;
+    top: 520px;
+    right: 40%;
+    width: 95%;
+    transform: translate(50%-50%);
+    z-index: 9;
+
+}
+
+
+
+
+
+.gifcoolbunny-6 {
+    position: absolute;
+    top: -120px;
+    left: 730px
+    
+
+}
+
+.gifgargoyle-10 {
+    position: absolute;
+    bottom: 300px;
+    right: 950px;
+    transform: translate(50%-50%) z-scale: 4px;
+    transform: scale(0.8);
+}
+
+.gifskull-11 {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    transform: translate(50%-50%);
+    transform: scale(0.8);
+}
+
+.gifspaceship-12 {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    transform: translate(50%-50%);
+    transform: scale(0.8);
+}
+
+
+.gifflamequake-13 {
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    transform: translate(50%-50%);
+    transform: scale(0.8);
+}
+
+.gifplanet9-14 {
+    position: absolute;
+    bottom: 620px;
+    right: 80px;
+    transform: translate(50%-50%) z-scale: 10px;
+    transform: scale(0.8);
+
+}
+
+.gifunitedstatessparklingflag-15 {
+    position: absolute;
+    top: 300px;
+    right: -160px;
+    transform: translate(50%-50%);
+    transform: scale(0.8);
+
+}
+
+
+.gifbook {
+    positon: absolute;
+    height: 200%;
+    width: 200%;
+    transform: scale(0.8);
+
+
+}
+
+.gif-rocket {
+    position: absolute;
+    left: 110px;
+}
+
+.gifmapglobe-17 {
+    positon: absolute;
+    left: 120%;
+    transform: scale(0.8);
+
+}
+
+.gifrecieve50cash-18 {
+    positon: absolute;
+    left: 120%;
+    top: 90px;
+    transform: scale(0.8);
+    z-index: 28;
+}
+
+
+.gifharryporn-30 {
+    positon: absolute;
+    left: 1200px;
+    top: 100px;
+    z-index: 30;
+}
+
+
+.gifgayporn-20 {
+    position: absolute;
+    top: 40%;
+    bottom: 50%;
+    left: 620px;
+    transform: scale(0.8);
+}
+
+.gifpoliceights-21 {
+    position: absolute;
+    top: 200px;
+
+
+
+
+}
+
+
+
+.giffaerynecklace1-23 {
+    position: absolute;
+    left: 380px;
+    top: 250px;
+    width: 200px
+    z-index: 23;
+    transform: scale 0.85;
+
+}
+
+.gifjanstorch-24 {
+    position: absolute;
+    left: 450px;
+    top: 0px;
+    z-index: 24;
+    
+
+}
+
+.gifysin-25 {
+    position: absolute;
+    z-index: 25;
+    transform: scale(0.8);
+}
+
+
+.gifangel-26 {
+    position: absolute;
+    z-index: 26;
+    height: 180px;
+    width: 180px;
+    left: 180px;
+    top: -120px;
+}
+
+.gifpegasus-27 {
+    position: absolute;
+    bottom: 150px;
+    right: 100px;
+    z-index: 27;
+    transform: scale(0.8);
+}
+
+
+.gifufoship {
+    position: absolute;
+    transform: scale(0.8);
+    right: 40px;
+
+}
+
+.gifenergyfight {
+    position: absolute;
+}
+
+.gifanimebanner {
+    position: absolute;
+    left: 1000px;
+    top: -90px;
+
+
+
+}
+
+.gifcyberbanner-30 {
+    position: absolute;
+    top: -140px;
+    right: 240px;
+    z-index: 25;
+    color: red;
+}
+
+.gifheadphones-31 {
+    position: absolute;
+    top: 350px;
+    right: 1250px;
+}
+
+.gifspeakers-32 {
+    position: absolute;
+    top: 450px;
+    right: 1200px;
+}
+
+.gifenter-33 {
+    position: absolute;
+    top: -50px;
+    right: 1200px;
+}
+
+.gifbanner-34 {
+    position: absolute;
+    top: 350px;
+    right: 1450px;
+    height: 180%;
+    width: 80%;
+
+}
+
+.gifpopcorn-35 {
+    position: absolute;
+    top: 100px;
+    right: 850px;
+}
+
+.gifindex19-36 {
+    position: absolute;
+    left: -160px;
+    top: -190px;
+    height: 80px;
+    width: 130%;
+}
+
+.gifconstruction-37 {
+    position: absolute;
+    left: -100px;
+    top: -550px;
+    height: 15px;
+    width: 120%;
+
+}
+
+.sexyhippo-40 {
+    height: 100px;
+}
+
+.gifslotmachine-38 {
+
+    position: absolute;
+    left: -200px;
+    top: 500px;
+    z-index: 23;
+    height: 60%;
+
+}
+
+.gifrfbaseball-39 {
+    position: absolute;
+    left: 450px;
+    top: -110px;
+    z-index: 23;
+    height: 100%;
+}
+
+.gifspinystar-40 {
+    position: absolute;
+    left: 100px;
+    top: 390px;
+    z-index: 23;
+    height: 60%;
+}
+
+.gifvendomachine-41 {
+    position: absolute;
+    left: 900px;
+    top: 430px;
+    height: 80%;
+}
+
+.giffdtrusted-42 {
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    height: 120%;
+}
+
+.gifchain-43 {
+    position: absolute;
+    left: 1090px;
+    top: 50px;
+    height: 19%;
+}
+
+.gifdracolft-44 {
+    position: absolute;
+    left: 1000px;
+    top: -20px;
+    height: 29%;
+}
+
+.gifsunray-45 {
+
+    position: absolute;
+    left: 1250px;
+    top: 50px;
+    height: 100%;
+}
+
+.gifstitch-46 {
+    position: absolute;
+    left: 155px;
+    top: 400px;
+    height: 80%;
+}
+
+.gifbulldog-47 {
+    position: absolute;
+    left: 305px;
+    top: 425px;
+    height: 73%;
+}
+
+.gifflame-48 {
+    position: absolute;
+    left: 20px;
+    top: -125px;
+    height: 129%;
+}
+
+.gifdeadmoney {
+    position: absolute;
+    left: 450px;
+}
+
+
+.gifskulldna-49 {
+    position: absolute;
+    left: 1125px;
+    top: 210px;
+    height: 49%;
+}
+
+.gifanimenakedgirl-50 {
+    position: absolute;
+    left: -175px;
+    top: 70px;
+    height: 29%;
+}
+
+.giflatinasex-51 {
+    position: absolute;
+    left: 1215px;
+    top: 80px;
+    height: 29%;
+}
+
+.gifanimedragon-52 {
+    position: absolute;
+    left: 800px;
+    top: 70px;
+    height: 25%;
+}
+
+.gifanimenakedgirl-53 {
+    position: absolute;
+    left: -165px;
+    top: 70px;
+    height: 29%;
+}
+
+
+.gifpentagram-54 {
+    position: absolute;
+    left: 15px;
+    top: 90px;
+    height: 100%;
+}
+
+
+.gifsymbols-55 {
+    position: absolute;
+    left: 1255px;
+    top: 190px;
+    height: 29%;
+}
+
+.gifsymbolsgrow-56 {
+    position: absolute;
+    left: 855px;
+    top: 290px;
+    height: 29%;
+}
+
+.gifguestbook-57 {
+    position: absolute;
+    top: 690px;
+    left: 470px;
+    height: 10%;
+}
+
+.gifplanetsandstars-58 {
+    position: absolute;
+    top: 630px;
+    left: 600px;
+    height: 20%;
+    width: 240px;
+}
+
+
+
+
+.gifweed-59 {
+    position: absolute;
+    top: 1580px;
+    left: 460px;
+    height: 20%;
+}
+
+.gifweed-60 {
+    position: absolute;
+    top: 1580px;
+    left: 1020px;
+    height: 20%;
+}
+
+.gifweedbar-62.5 {
+    position: absolute;
+    top: 1480px;
+    left: 200px;
+    height: 600%;
+
+
+}
+
+.gifweedspiral-63 {
+    position: absolute;
+    top: 1450px;
+    left: 200px;
+    height: 15%;
+}
+
+.gifbong-64 {
+    position: absolute;
+    top: 1700px;
+    left: 1200px;
+    height: 12%;
+}
+
+.gifalienstoner-65 {
+    position: absolute;
+    top: 1750px;
+    left: 1100px;
+    height: 12%;
+}
+
+.gifweedbar2-66 {
+    position: absolute;
+    overflow: hidden;
+    top: 1360px;
+    left: 200px;
+    height: 15%;
+    width: 70%;
+}
+
+.weedparagraph {
+    font-family: Psychedlic;
+    font-size: 500%;
+    text-align: center;
+    color: green;
+    text-shadow: 2px 2px 6px;
+}
+
+
+.weed-420 {
+    font-size: 500%;
+
+    text-align: center;
+    color: green;
+    text-shadow: 2px 2px 6px;
+    top: 2420px;
+}
+
+.gifweedinfo-67 {
+    position: absolute;
+    top: 1510px;
+    left: 20px;
+    height: 14%;
+}
+
+.gifrocketbar-68 {
+    position: absolute;
+    top: 1250px;
+    left: 420px;
+    height: 8%;
+    width: 70%;
+}
+
+.gifrocketlandscape-68 {
+    position: absolute;
+    top: 1650px;
+    left: 220px;
+    height: 10%;
+}
+
+.gifworldweed-69 {
+    position: absolute;
+    top: 1690px;
+    left: 220px;
+    height: 10%;
+}
+
+.gifpinkbunny-70 {
+    position: absolute;
+    top: 1270px;
+    left: 420px;
+    height: 10%;
+}
+
+.gifkissingbunny-71 {
+    position: absolute;
+    top: 1640px;
+    left: 1150px;
+    height: 10%
+}
+
+.gifbunnyglobe-72 {
+    position: absolute;
+    top: 1810px;
+    left: 140px;
+    height: 20%;
+}
+
+
+.gifjumpingbunny-73 {
+    position: absolute;
+    top: 1650px;
+    left: 240px;
+    height: 10%;
+}
+
+.gifbunnyrealism-58 {
+    positon: absolute;
+    left: 20px;
+    top: -100;
+    transform: scale(0.8);
+}
+
+
+
+
+.giffont-61 {
+    position: absolute;
+    top: 2720px;
+    left: 220px;
+    height: 40%;
+
+
+}
+
+.smallweedfont {
+    color: green;
+    left: 40%
+}
+
+.gifgoodbye-62.5 {
+
+    position: absolute;
+    top: 2380px;
+    left: 1220px;
+    height: 10%;
+    width: 40%;
+    transform: rotate(180deg);
+}
+
+.gifrocketlandscape-79 {
+
+    position: absolute;
+    top: 2280px;
+    left: 120px;
+    height: 3%;
+}
+
+.gifrockets-79.1 {
+
+    position: absolute;
+    top: 2380px;
+    left: 120px;
+    height: 3%;
+}
+
+.gifrockets-79.2 {
+
+    position: absolute;
+    top: 2180px;
+    left: 120px;
+    height: 3%;
+}
+
+.gifrockets-79.3 {
+    position: absolute;
+    top: 2480px;
+    left: 1220px;
+    height: 10%;
+
+}
+
+.gifrockets-79.4 {
+    position: absolute;
+    top: 8680px;
+    left: 1220px;
+    height: 10%;
+    transform: scaleY(-1);
+}
+
+.gifrockets-79.5 {
+    position: absolute;
+    top: 2980px;
+    left: 1220px;
+    height: 10%;
+    transform: scaleY(-1);
+
+}
+
+
+
+.gifarrowdown-63 {
+    position: absolute;
+    top: 2480px;
+    left: 1260px;
+    height: 10%;
+
+}
+
+.gifarrowdown-64 {
+    position: absolute;
+    top: 2480px;
+    left: 1180px;
+    height: 10%;
+
+}
+
+.gifarrowdown-65 {
+    position: absolute;
+    top: 2699px;
+    left: 1180px;
+    height: 10%;
+
+}
+
+.gifarrowdown-66 {
+    position: absolute;
+    top: 2700px;
+    left: 1260px;
+    height: 10%;
+
+}
+
+.gifarrowdown-67 {
+    position: absolute;
+    top: 2680px;
+    left: 1220px;
+    height: 10%;
+
+}
+
+.gifarrowdown-68 {
+    position: absolute;
+    top: 2899px;
+    left: 1180px;
+    height: 10%;
+
+}
+
+.gifarrowdown-69 {
+    position: absolute;
+    top: 2900px;
+    left: 1260px;
+    height: 10%;
+
+}
+
+.gifarrowdown-70 {
+    position: absolute;
+    top: 2880px;
+    left: 1220px;
+    height: 10%;
+
+
+
+}
+
+.gifarrowdown-112 {
+    position: absolute;
+    top: 3080px;
+    left: 1220px;
+    height: 10%;
+
+}
+
+.gifarrowdown-113 {
+    position: absolute;
+    top: 3080px;
+    left: 1260px;
+    height: 10%;
+
+}
+
+.gifarrowdown-114 {
+    position: absolute;
+    top: 3080px;
+    left: 1180px;
+    height: 10%;
+
+}
+
+
+
+
+
+
+
+
+.gifroad-71 {
+    position: absolute;
+    top: 3080px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-72 {
+    position: absolute;
+    top: 3100px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-73 {
+    position: absolute;
+    top: 3120px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-74 {
+    position: absolute;
+    top: 3140px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-75 {
+    position: absolute;
+    top: 3160px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-76 {
+    position: absolute;
+    top: 3180px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-77 {
+    position: absolute;
+    top: 3200px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-78 {
+    position: absolute;
+    top: 3220px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-79 {
+    position: absolute;
+    top: 3240px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-80 {
+    position: absolute;
+    top: 3260px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-81 {
+    position: absolute;
+    top: 3280px;
+    left: 700px;
+    height: 10%;
+
+}
+
+
+.gifroad-82 {
+    position: absolute;
+    top: 3300px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-83 {
+    position: absolute;
+    top: 3320px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-84 {
+    position: absolute;
+    top: 3340px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-85 {
+    position: absolute;
+    top: 3360px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-86 {
+    position: absolute;
+    top: 3380px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-87 {
+    position: absolute;
+    top: 3400px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-88 {
+    position: absolute;
+    top: 3420px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-89 {
+    position: absolute;
+    top: 3440px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-90 {
+    position: absolute;
+    top: 3460px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-91 {
+    position: absolute;
+    top: 3480px;
+    left: 700px;
+    height: 10%;
+
+}
+
+
+.gifroad-92 {
+    position: absolute;
+    top: 3500px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-93 {
+    position: absolute;
+    top: 3520px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-94 {
+    position: absolute;
+    top: 3540px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-95 {
+    position: absolute;
+    top: 3560px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-96 {
+    position: absolute;
+    top: 3580px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-97 {
+    position: absolute;
+    top: 3600px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-98 {
+    position: absolute;
+    top: 3620px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-99 {
+    position: absolute;
+    top: 3640px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-100 {
+    position: absolute;
+    top: 3660px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-101 {
+    position: absolute;
+    top: 3680px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-102 {
+    position: absolute;
+    top: 3700px;
+    left: 700px;
+    height: 10%;
+
+}
+
+
+.gifroad-103 {
+    position: absolute;
+    top: 3720px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-104 {
+    position: absolute;
+    top: 3740px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-105 {
+    position: absolute;
+    top: 3760px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-106 {
+    position: absolute;
+    top: 3780px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-107 {
+    position: absolute;
+    top: 3800px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-108 {
+    position: absolute;
+    top: 3820px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-109 {
+    position: absolute;
+    top: 3840px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-110 {
+    position: absolute;
+    top: 3860px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.gifroad-111 {
+    position: absolute;
+    top: 3880px;
+    left: 700px;
+    height: 10%;
+
+}
+
+.end {
+    color: red;
+    font-size: 400%;
+    text-align: center;
+    padding-right: 5%;
+}
+
+.end-2 {
+    color: red;
+    font-size: 200%;
+    text-align: center;
+    padding-right: 5%;
+}
+
+
+.gifcloseddoor {
+    position: absolute;
+    left: 30%;
+    top: 4600;
+}
+
+.gifcloseddoor-1 {
+    left: 65%;
+    top: 4600;
+    position: absolute;
+}
+
+
+.bottom-grid {
+border: red solid 2px;
+color: #FFC300;
+}
+
+.gifspacebanner {
+    top: 300px;
+    left: -100px;
+    transform: rotate(-90deg);
+    z-index: 2;
+
+}
+.paragraph {
+    color: yellow;
+    font-size: medium;
+    padding-left: 20px;
+}
+
+
+
+.red {
+    position: absolute;
+    top: 30px;
+
+    width: 1250px;
+    height: 40px;
+
+}
+
+.paragraph-2 {
+    color: green;
+    padding-left: 20px;
+}
+
+.Sky-high {
+    border: 20px;
+    left: 400px;
+    size: 20%;
+}
+
+.title {
+    font-size: 5rem;
+    font-family: 'Pirata One', 'cursive';
+    animation: scale 8s linear infinite;
+    text-align: center;
+    color: rgb(3, 77, 102);
+    text-shadow: 2px 2px 4px rgb(200, 36, 187);
+    opacity: 0.1;
+
+}
+@keyframes scale {
+    0% {
+        transform: scale(1); opacity: 0.1;
+    }
+
+    50% {
+
+        transform: scale(1.5); opacity: 0.4;
+    }
+
+    100% {
+        transform: scale(2); opacity: 0.8;
+    }
+
+    }
+
